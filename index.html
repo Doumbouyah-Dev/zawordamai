@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Zawordamai Ele. Jr. High School</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+        <link rel="icon" type="image/x-icon" href="img/favicon.png">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Montserrat:wght@700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Montserrat:wght@500;700&family=Playfair+Display:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body >
+
+    <!-- 
+    ------------------------------------------------------------------------------
+        NAVBAR
+     -------------------------------------------------------------------------------      
+    -->
+        <nav class="navbar" aria-label="Main Navigation">
+        <div class="nav-container">
+            <div class="branding">
+                <div class="n-logo-circle">ZEJS</div>
+                <div class="school-info">
+                    <h1 class="school-name">Zawordamai Ele. Jr. High School</h1>
+                    <span class="location-tag">LOFA COUNTY, LIBERIA</span>
+                </div>
+            </div>
+
+            <button class="menu-toggle" aria-label="Open Menu" aria-expanded="false">
+                <span class="hamburger"></span>
+            </button>
+
+            <div class="nav-links-wrapper">
+                <ul class="nav-links">
+                    <li><a href="index.html" class="nav-link active">Home</a></li>
+                    <li><a href="about.html" class="nav-link">About Us</a></li>
+                    <li><a href="academics.html" class="nav-link">Academics</a></li>
+                    <li><a href="gallery.html" class="nav-link">Gallery</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="decorative-bar"></div>
+    </nav>
+
+<!--
+    ------------------------------------------------------------------------------
+        HERO SECTION
+    ------------------------------------------------------------------------------- 
+ -->
+<main class="relative min-h-screen flex items-center overflow-x-hidden">
+    <div class="geo-squares hidden md:block"></div>
+    <div class="absolute top-10 right-10 opacity-10 pointer-events-none">
+        <svg width="100" height="100" viewBox="0 0 100 100">
+            <circle cx="20" cy="20" r="5" fill="#3b82f6"/>
+            <circle cx="50" cy="20" r="8" fill="#3b82f6"/>
+            <circle cx="30" cy="60" r="6" fill="#3b82f6"/>
+        </svg>
+    </div>
+    <svg class="organic-wave" viewBox="0 0 1440 320" preserveAspectRatio="none">
+        <path d="M0,160L80,176C160,192,320,224,480,213.3C640,203,800,149,960,144C1120,139,1280,181,1360,202.7L1440,224L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"></path>
+    </svg>
+
+    <div class="container mx-auto px-6 py-20 lg:py-0 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center relative z-10">
+        
+        <div class="space-y-6 lg:space-y-8 text-center lg:text-left">
+            <div class="flex items-center justify-center lg:justify-start space-x-2 font-bold text-xs md:text-sm tracking-widest redtexts500 uppercase">
+                <i class="fa-solid fa-arrow-right"></i>
+                <span>Online E-Learning Course</span>
+            </div>
+            
+            <h1 class="text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tight">
+                <span class="textblue600 block">Online Education</span>
+                <span class="textgray900 block md:inline">Feels Like Real Classroom</span>
+            </h1>
+
+            <ul class="space-y-4 inline-block text-left">
+                <li class="flex items-center space-x-3">
+                    <span class="bg-blue-100 p-1.5 rounded-full flex items-center justify-center"><i class="fa-solid fa-check text-blue-600 text-xs"></i></span>
+                    <span class="text-gray-700 font-semibold text-sm md:text-base">Get Certified</span>
+                </li>
+                <li class="flex items-center space-x-3">
+                    <span class="bg-red-100 p-1.5 rounded-full flex items-center justify-center"><i class="fa-solid fa-check text-red-600 text-xs"></i></span>
+                    <span class="text-gray-700 font-semibold text-sm md:text-base">Gain Job-ready Skills</span>
+                </li>
+                <li class="flex items-center space-x-3">
+                    <span class="bg-gray-200 p-1.5 rounded-full flex items-center justify-center"><i class="fa-solid fa-check text-black text-xs"></i></span>
+                    <span class="text-gray-700 font-semibold text-sm md:text-base">Great Life</span>
+                </li>
+            </ul>
+
+            <div class="flex justify-center lg:justify-start pt-4">
+               <a href="about.html"> <button class="bg-blue-900 hover:bg-blue-800 text-white px-10 py-4 rounded-full font-bold flex items-center transition-all duration-300 shadow-lg hover:shadow-blue-200">
+                    Who We Are <i class="fa-solid fa-arrow-right ml-2"></i>
+                </button></a>
+            </div>
+        </div>
+
+        <div class="relative mt-16 lg:mt-0 flex justify-center items-center">
+            <div class="subject-ring"></div>
+            
+            <div class="absolute -bottom-6 left-4 md:left-10 bg-white p-3 md:p-4 rounded-2xl shadow-2xl flex items-center space-x-3 floating z-20">
+                <div class="bg-blue-600 w-10 h-10 rounded-full flex items-center justify-center shrink-0">
+                    <i class="fa-solid fa-graduation-cap text-white"></i>
+                </div>
+                <div class="whitespace-nowrap">
+                    <p class="font-bold text-gray-900 text-sm md:text-base">16500+</p>
+                    <p class="text-[10px] md:text-xs text-gray-500">Active Students</p>
+                </div>
+            </div>
+
+            <div class="absolute top-0 right-4 md:right-10 bg-white p-3 md:p-4 rounded-2xl shadow-2xl flex items-center space-x-3 floating z-20" style="animation-delay: 1s;">
+                <div class="bg-red-500 w-10 h-10 rounded-full flex items-center justify-center shrink-0">
+                    <i class="fa-solid fa-desktop text-white"></i>
+                </div>
+                <div class="whitespace-nowrap">
+                    <p class="font-bold text-gray-900 text-sm md:text-base">7500+</p>
+                    <p class="text-[10px] md:text-xs text-gray-500">Video Courses</p>
+                </div>
+            </div>
+
+            <div class="relative z-10 w-full max-w-[450px]">
+                <img src="img/hero-img.png" id="hero-im" class="w-full h-auto object-cover " alt="Smiling student in mustard sweater">
+            </div>
+        </div>
+    </div>
+</main>
+
+<!-- 
+    ------------------------------------------------------------------------------
+        THE CORE VALUE SECTION
+     -------------------------------------------------------------------------------        
+ -->
+<section class="values-section">
+    <header class="values-header">
+        <span class="eyebrow">Who We Are</span>
+        <h2>Our Core Values</h2>
+        <p>Built on a foundation of tradition and excellence, our values guide every lesson taught and every dream nurtured at Zawordamai.</p>
+    </header>
+
+    <div class="values-grid">
+        <article class="value-card">
+            <div class="icon-box">
+                <svg viewBox="0 0 24 24"><path d="M12 21l-8-4.5v-9L12 3l8 4.5v9l-8 4.5zM12 18.5l6-3.4v-6.2l-6-3.4-6 3.4v6.2l6 3.4zM12 15.5l-4-2.2v-1.6l4 2.2 4-2.2v1.6l-4 2.2z"/></svg>
+            </div>
+            <h3>Academic Excellence</h3>
+            <p>We hold every student to a high standard, providing rigorous, structured learning from Kindergarten through Grade 9.</p>
+        </article>
+
+        <article class="value-card">
+            <div class="icon-box">
+                <svg viewBox="0 0 24 24"><path d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5s-3 1.34-3 3 1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"/></svg>
+            </div>
+            <h3>Community & Unity</h3>
+            <p>We are rooted in the Lofa County community. Families, teachers, and students thrive together as one team.</p>
+        </article>
+
+        <article class="value-card">
+            <div class="icon-box">
+                <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+            </div>
+            <h3>Integrity & Discipline</h3>
+            <p>Character is built through consistency. We teach students to be honest, responsible, and resilient in all they do.</p>
+        </article>
+
+        <article class="value-card">
+            <div class="icon-box">
+                <svg viewBox="0 0 24 24"><path d="M5 17.5l8.5-8.5 5 5L22 7l-1.41-1.41L13.5 12.67l-5-5L2 14.75z"/></svg>
+            </div>
+            <h3>Future Readiness</h3>
+            <p>Beyond textbooks, we prepare students with critical thinking and life skills to succeed in secondary school and beyond.</p>
+        </article>
+    </div>
+</section>
+
+<!-- 
+-----------------------------------------------------------------------------------------------------
+    THE PRINCIPAL'S MESSAGE SECTION
+------------------------------------------------------------------------------------------------------
+-->
+ <section class="principal-section">
+        <div class="container">
+            
+            <div class="profile-element">
+                <div class="image-wrapper">
+                    <div class="profile-circle">
+                        <img src="img/principal.jpg" class="principal-img" alt="Principal" srcset="">
+                    </div>
+                    <div class="experience-badge">10+ YRS IN EDUCATION</div>
+                </div>
+                <span class="profile-label">PRINCIPAL</span>
+            </div>
+
+            <div class="content-block">
+                <header>
+                    <span class="principal-eyebrow">A WORD FROM LEADERSHIP</span>
+                    <h2 class="principal-title">Principal's Message</h2>
+                </header>
+
+                <blockquote class="message-quote">
+                    "At Zawordamai, we believe that education is not merely the filling of a pail, but the lighting of a fire. Our mission is to nurture resilient leaders who are prepared to shape the future of Liberia with integrity and wisdom."
+                </blockquote>
+
+                <div class="signature">
+                    <p class="name">&mdash; Mr. Mohammed Kamara</p>
+                    <p class="title">Principal, Zawordamai Ele. Jr. High School</p>
+                </div>
+
+                <div class="cta-wrapper">
+                    <a href="principal.html" class="ghost-btn">Read Full Biography</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- 
+---------------------------------------------------------------------------------------------
+    NEWS & ANNOUNCEMENTS SECTION
+----------------------------------------------------------------------------------------------
+-->
+    <section class="news-section">
+        <div class="news-container">
+            <header class="news-header">
+                <span class="eyebrow">School Updates</span>
+                <h2 class="section-title">Latest News & Announcements</h2>
+            </header>
+
+            <div class="news-grid">
+                
+                <article class="news-card">
+                    <div class="card-content">
+                        <time class="news-date" datetime="2025-06">JUN 2025</time>
+                        <h3 class="news-title">2024–2025 Academic Year Results Released</h3>
+                        <p class="news-summary">We are proud to announce that 97% of our Grade 9 students qualified for senior high school placement this year.</p>
+                        <a href="news.html" class="news-cta">Read More <span class="arrow">→</span></a>
+                    </div>
+                </article>
+
+                <article class="news-card">
+                    <div class="card-content">
+                        <time class="news-date" datetime="2025-05">MAY 2025</time>
+                        <h3 class="news-title">New Science Laboratory Officially Opens</h3>
+                        <p class="news-summary">Thanks to community support, our modern science lab is now open and serving Grades 6–9 with hands-on experiments.</p>
+                        <a href="news.html" class="news-cta">Read More <span class="arrow">→</span></a>
+                    </div>
+                </article>
+
+                <article class="news-card">
+                    <div class="card-content">
+                        <time class="news-date" datetime="2025-03">MAR 2025</time>
+                        <h3 class="news-title">Enrollment Open for 2025–2026 School Year</h3>
+                        <p class="news-summary">Registration for the upcoming academic year is now open. Visit our Admissions page for requirements and fee structures.</p>
+                        <a href="admissions.html" class="news-cta">Enroll Now <span class="arrow">→</span></a>
+                    </div>
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+
+
+<!-- 
+------------------------------------------------------------------------------------------------------
+    GET STARTED SECTION
+------------------------------------------------------------------------------------------------------    
+-->
+<section class="get-started" aria-labelledby="cta-heading">
+    <div class="getstarted-container">
+        <header class="cta-header">
+            <span class="getstarted-eyebrow">Get Started</span>
+            <h2 id="cta-heading" class="main-heading">Everything You Need to Know</h2>
+        </header>
+
+        <div class="cta-grid">
+            
+            <article class="cta-card">
+                <div class="card-inner">
+                    <div class="card-top">
+                        <div class="icon-wrapper">
+                            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M4 19.5V5C4 3.89543 4.89543 3 6 3H18.5" stroke="#002147" stroke-width="2" stroke-linecap="round"/>
+                                <path d="M4 19.5C4 20.6046 4.89543 21.5 6 21.5H19.5V17.5H6C4.89543 17.5 4 18.3954 4 19.5Z" fill="#FF4D4D" stroke="#002147" stroke-width="2"/>
+                                <path d="M8 7H15" stroke="#FFD700" stroke-width="2" stroke-linecap="round"/>
+                                <path d="M8 11H15" stroke="#4CAF50" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                        </div>
+                        <h3 class="card-title">View Curriculum</h3>
+                        <p class="card-summary">K–9 subject breakdown and academic structure.</p>
+                    </div>
+                    <a href="academics.html" class="card-arrow" aria-label="View Curriculum">
+                        <span class="arrow-icon">→</span>
+                    </a>
+                </div>
+            </article>
+
+            <article class="cta-card">
+                <div class="card-inner">
+                    <div class="card-top">
+                        <div class="icon-wrapper">
+                            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="5" y="4" width="14" height="17" rx="2" stroke="#002147" stroke-width="2"/>
+                                <rect x="9" y="2" width="6" height="3" rx="1" fill="#D2B48C" stroke="#002147" stroke-width="2"/>
+                                <path d="M9 10H15" stroke="#002147" stroke-width="2" stroke-linecap="round"/>
+                                <path d="M9 14H15" stroke="#002147" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                        </div>
+                        <h3 class="card-title">Admissions Info</h3>
+                        <p class="card-summary">Requirements, fees, and how to register your child.</p>
+                    </div>
+                    <a href="admissions.html" class="card-arrow" aria-label="Admissions Info">
+                        <span class="arrow-icon">→</span>
+                    </a>
+                </div>
+            </article>
+
+            <article class="cta-card">
+                <div class="card-inner">
+                    <div class="card-top">
+                        <div class="icon-wrapper">
+                            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M22 16.92V19.92C22 20.47 21.53 20.94 20.97 20.92C18.45 20.73 16.08 20.02 13.94 18.89C12 17.87 10.24 16.2 9.17 14.34C8 12.28 7.3 10 7.12 7.59C7.1 7.04 7.56 6.57 8.12 6.57H11.12C11.61 6.57 12.02 6.91 12.09 7.39L12.72 10.89C12.78 11.23 12.67 11.58 12.43 11.82L10.74 13.51C11.72 15.22 13.13 16.55 14.84 17.52L16.53 15.83C16.77 15.59 17.13 15.48 17.47 15.54L20.97 16.17C21.46 16.24 21.8 16.66 21.8 17.15L22 16.92Z" fill="#FF4D4D" stroke="#002147" stroke-width="2"/>
+                            </svg>
+                        </div>
+                        <h3 class="card-title">Contact School</h3>
+                        <p class="card-summary">Reach us by phone, location, or our contact form.</p>
+                    </div>
+                    <a href="contact.html" class="card-arrow" aria-label="Contact School">
+                        <span class="arrow-icon">→</span>
+                    </a>
+                </div>
+            </article>
+
+        </div>
+    </div>
+</section>
+
+<!-- 
+-------------------------------------------------------------------------------------------
+    FOOTER SECTION
+--------------------------------------------------------------------------------------------
+-->
+<footer class="site-footer">
+        <div class="footer-container">
+            
+            <div class="footer-col branding-col">
+                <div class="footer-logo">
+                    <div class="logo-circle">ZEJS</div>
+                    <div class="logo-text">
+                        <h2>Zawordamai Ele. Jr. High School</h2>
+                        <span>LOFA COUNTY, LIBERIA</span>
+                    </div>
+                </div>
+                <p class="mission-text">
+                    Dedicated to providing world-class education and character development to the youth of Lofa County. We nurture the leaders of tomorrow through discipline, excellence, and community.
+                </p>
+            </div>
+
+           <nav class="footer-col links-col" aria-label="Footer Navigation">
+                <h3 class="footer-heading">Quick Links</h3>
+                <ul class="footer-links">
+                    <li><a href="academics.html">Admissions</a></li>
+                    <li><a href="academics.html">Academic Calendar</a></li>
+                    <li><a href="#">Student Portal(coming soon)</a></li>
+                    <li><a href="gallery.html">School Gallery</a></li>
+                    <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                </ul>
+            </nav>
+
+            <div class="footer-col contact-col">
+                <h3 class="footer-heading">Contact</h3>
+                <div class="contact-item">
+                    <p>Main Road, Voinjama City<br>Lofa County, Liberia</p>
+                </div>
+                <div class="contact-details">
+                    <a href="tel:+231000000000" class="contact-link">
+                        <svg class="icon icon-phone" viewBox="0 0 24 24"><path d="M6.62 10.79a15.05 15.05 0 006.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+                        +231 77 000 000
+                    </a>
+                    <a href="mailto:info@lofaacademy.edu" class="contact-link">
+                        <svg class="icon icon-email" viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+                        info@lofaacademy.edu
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright-bar">
+            <div class="bar-container">
+                <p>&copy; 2026 Zawordamai Elementary & Junior High School. All rights reserved.</p>
+                <p class="accessibility-tag" id="accessibility-tag">Built by D. Solomon K. Youhn(DoumbouyahDev)</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
